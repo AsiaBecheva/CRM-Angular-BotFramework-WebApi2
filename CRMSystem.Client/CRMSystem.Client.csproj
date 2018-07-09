@@ -27,27 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\dist\assets\css\animate.min.css" />
-    <None Include="wwwroot\dist\assets\css\bootstrap.min.css" />
-    <None Include="wwwroot\dist\assets\css\demo.css" />
-    <None Include="wwwroot\dist\assets\css\light-bootstrap-dashboard.css" />
-    <None Include="wwwroot\dist\assets\css\pe-icon-7-stroke.css" />
-    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.eot" />
-    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.svg" />
-    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.ttf" />
-    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.woff" />
-    <None Include="wwwroot\dist\assets\img\faces\face-0.jpg" />
-    <None Include="wwwroot\dist\assets\img\sidebar-5.jpg" />
-    <None Include="wwwroot\dist\assets\js\bootstrap-notify.js" />
-    <None Include="wwwroot\dist\assets\js\bootstrap-select.js" />
-    <None Include="wwwroot\dist\assets\js\bootstrap.min.js" />
-    <None Include="wwwroot\dist\assets\js\chartist.min.js" />
-    <None Include="wwwroot\dist\assets\js\demo.js" />
-    <None Include="wwwroot\dist\assets\js\jquery.3.2.1.min.js" />
-    <None Include="wwwroot\dist\assets\js\light-bootstrap-dashboard.js" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CRMSystem.Common\CRMSystem.Common.csproj" />
     <ProjectReference Include="..\CRMSystem.Data\CRMSystem.Data.csproj" />
     <ProjectReference Include="..\CRMSystem.Models\CRMSystem.Models.csproj" />

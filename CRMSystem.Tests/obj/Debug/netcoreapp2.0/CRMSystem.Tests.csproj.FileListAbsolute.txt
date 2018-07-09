@@ -22,3 +22,28 @@ C:\Users\Asya.Becheva\Desktop\CRMSYSTEM\CRM-Angular-BotFramework-WebApi\CRMSyste
 C:\Users\Asya.Becheva\Desktop\CRMSYSTEM\CRM-Angular-BotFramework-WebApi\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.AssemblyInfo.cs
 C:\Users\Asya.Becheva\Desktop\CRMSYSTEM\CRM-Angular-BotFramework-WebApi\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.dll
 C:\Users\Asya.Becheva\Desktop\CRMSYSTEM\CRM-Angular-BotFramework-WebApi\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.pdb
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Tests.deps.json
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Tests.runtimeconfig.json
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Tests.runtimeconfig.dev.json
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Tests.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Tests.pdb
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Client.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Common.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Data.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Models.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Client.pdb
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Data.pdb
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Data.dll.config
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Models.pdb
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Common.pdb
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\bin\Debug\netcoreapp2.0\CRMSystem.Common.dll.config
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.csprojAssemblyReference.cache
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.AssemblyInfoInputs.cache
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.AssemblyInfo.cs
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.csproj.CopyComplete
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.dll
+C:\Users\Asya.Becheva\Desktop\New folder\repo\CRMSystem.Tests\obj\Debug\netcoreapp2.0\CRMSystem.Tests.pdb

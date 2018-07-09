@@ -14414,11 +14414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Tests\\CRMSystem.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Tests\\CRMSystem.Tests.csproj",
       "projectName": "CRMSystem.Tests",
-      "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Tests\\CRMSystem.Tests.csproj",
+      "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Tests\\CRMSystem.Tests.csproj",
       "packagesPath": "C:\\Users\\Asya.Becheva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14436,14 +14436,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Client\\CRMSystem.Client.csproj": {
-              "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Client\\CRMSystem.Client.csproj"
+            "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Client\\CRMSystem.Client.csproj": {
+              "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Client\\CRMSystem.Client.csproj"
             },
-            "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Data\\CRMSystem.Data.csproj": {
-              "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Data\\CRMSystem.Data.csproj"
+            "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Data\\CRMSystem.Data.csproj": {
+              "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Data\\CRMSystem.Data.csproj"
             },
-            "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Models\\CRMSystem.Models.csproj": {
-              "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\CRMSYSTEM\\CRM-Angular-BotFramework-WebApi\\CRMSystem.Models\\CRMSystem.Models.csproj"
+            "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Models\\CRMSystem.Models.csproj": {
+              "projectPath": "C:\\Users\\Asya.Becheva\\Desktop\\New folder\\repo\\CRMSystem.Models\\CRMSystem.Models.csproj"
             }
           }
         }
