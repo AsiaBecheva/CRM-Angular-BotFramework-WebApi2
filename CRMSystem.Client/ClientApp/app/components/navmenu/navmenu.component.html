@@ -1,0 +1,49 @@
+<div class="sidebar" data-color="blue" data-image="/dist/assets/img/sidebar-5.jpg">
+    <!--
+
+        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+
+    -->
+    <div class="sidebar-wrapper">
+        <div class="logo">
+            <a [routerLink]="['/']" class="simple-text">
+               CRM
+            </a>
+        </div>
+        <ul class="nav">
+            <li class="active">
+                <a [routerLink]="['/']">
+                    <i class="pe-7s-graph"></i>
+                    <p>Dashboard</p>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/user']">
+                    <i class="pe-7s-user"></i>
+                    <p>Add Profile</p>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/customers/all']">
+                    <i class="pe-7s-note2"></i>
+                    <p>Customers</p>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/products/all']">
+                    <i class="pe-7s-news-paper"></i>
+                    <p>Products</p>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/sales']">
+                    <i class="pe-7s-cash"></i>
+                    <p>Sales</p>
+                </a>
+            </li>
+            <li class="active-pro">
+                <iframe style="height:350px; background-color:white; width:260px"src='https://webchat.botframework.com/embed/CRMBOT11?s=B1U4LcoZ6HA.cwA.gio._jMyFUlew4woLpfLTZKYw0-hRUEshfGp6Ulxa0cVo_Q'></iframe>
+            </li>
+        </ul>
+    </div>
+</div>

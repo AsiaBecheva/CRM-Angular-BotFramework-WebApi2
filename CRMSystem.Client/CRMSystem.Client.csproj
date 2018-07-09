@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Redux.NET" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
+    <Content Remove="ClientApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\dist\assets\css\animate.min.css" />
+    <None Include="wwwroot\dist\assets\css\bootstrap.min.css" />
+    <None Include="wwwroot\dist\assets\css\demo.css" />
+    <None Include="wwwroot\dist\assets\css\light-bootstrap-dashboard.css" />
+    <None Include="wwwroot\dist\assets\css\pe-icon-7-stroke.css" />
+    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.eot" />
+    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.svg" />
+    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.ttf" />
+    <None Include="wwwroot\dist\assets\fonts\Pe-icon-7-stroke.woff" />
+    <None Include="wwwroot\dist\assets\img\faces\face-0.jpg" />
+    <None Include="wwwroot\dist\assets\img\sidebar-5.jpg" />
+    <None Include="wwwroot\dist\assets\js\bootstrap-notify.js" />
+    <None Include="wwwroot\dist\assets\js\bootstrap-select.js" />
+    <None Include="wwwroot\dist\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\dist\assets\js\chartist.min.js" />
+    <None Include="wwwroot\dist\assets\js\demo.js" />
+    <None Include="wwwroot\dist\assets\js\jquery.3.2.1.min.js" />
+    <None Include="wwwroot\dist\assets\js\light-bootstrap-dashboard.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRMSystem.Common\CRMSystem.Common.csproj" />
+    <ProjectReference Include="..\CRMSystem.Data\CRMSystem.Data.csproj" />
+    <ProjectReference Include="..\CRMSystem.Models\CRMSystem.Models.csproj" />
+  </ItemGroup>
+
+  <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+
+    <!-- In development, the dist files won't exist on the first run or when cloning to
+         a different machine, so rebuild them if not already present. -->
+    <Message Importance="high" Text="Performing first-run Webpack build..." />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec Command="npm install" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js --env.prod" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --env.prod" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="wwwroot\dist\**; ClientApp\dist\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>
